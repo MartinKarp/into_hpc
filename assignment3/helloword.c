@@ -3,7 +3,6 @@
 int main(int argc, char *argv[]){
 
     int rank, size, i, provided;
-    float A[10];
     
     MPI_Init_thread(&argc, &argv, MPI_THREAD_SINGLE, &provided);
     MPI_Comm_size(MPI_COMM_WORLD, &size);
